@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#search-icon:hover {
+  color: #27f;
+}
+
+#cartWrapper:hover #cartLogo,#cartWrapper:hover #cartText  {
+  color:#252525;
+}
+
+#login-btn{
+  background-color: white;
+}
+
+#login-btn:hover { 
+  box-shadow: 3px 3px 3px 0px;
+  margin-right: auto;
+}
+
+#login-btn:active {
+  box-shadow: 3px 3px 0px 3px;
+}
+
+/* <----Banner----> */
+#banner {
+  padding-left: 10px;
+}
+
+
