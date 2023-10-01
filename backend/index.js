@@ -1,5 +1,5 @@
 import express from "express";
-// import cors from "cors";
+import cors from "cors";
 import dotenv from "dotenv";
 import path from "path";
 // import { v4 as uuid } from 'uuid';
@@ -24,5 +24,5 @@ app.listen(PORT, () =>
 DefaultData();
 
 app.use(express.json());
-// app.use(cors());
+app.use(cors());
 app.use("/", Routes);
